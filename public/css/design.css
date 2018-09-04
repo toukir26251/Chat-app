@@ -1,0 +1,59 @@
+.classinput[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .classinput[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float:right;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .msgCon{
+        max-height: 70vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    div.fixed {
+    position: fixed;
+    bottom: 10px;
+    } 
+
+    .text {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: {
+        size: 15vw;
+        family: $font;
+    }
+
+    .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+}
